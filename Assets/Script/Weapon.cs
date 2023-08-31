@@ -1,8 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
-using Unity.VisualScripting;
+using Unity.VisualScripting.Dependencies.NCalc;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.U2D;
+using UnityEngine.UIElements;
+using static UnityEditor.VersionControl.Asset;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class Weapon : MonoBehaviour
 

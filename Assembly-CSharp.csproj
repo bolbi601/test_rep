@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{C2EDB014-E6F5-D7D0-0DE1-F540A0F1BDA8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,15 +56,38 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Script/Obstacle.cs" />
-    <Compile Include="Assets/Script/Weapon.cs" />
-    <Compile Include="Assets/Script/CameraController.cs" />
     <Compile Include="Assets/Script/HeroInputReader.cs" />
-    <Compile Include="Assets/Script/WalkingMonster.cs" />
-    <Compile Include="Assets/Script/Entity.cs" />
-    <Compile Include="Assets/Script/Projectile.cs" />
     <Compile Include="Assets/Script/Star.cs" />
+    <Compile Include="Assets/Script/Weapon.cs" />
     <Compile Include="Assets/Script/Hero.cs" />
+    <Compile Include="Assets/Script/CameraController.cs" />
+    <Compile Include="Assets/Script/WalkingMonster.cs" />
+    <Compile Include="Assets/Script/Projectile.cs" />
+    <Compile Include="Assets/Script/Obstacle.cs" />
+    <Compile Include="Assets/Script/Entity.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_Translate.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Translate.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader" />
+    <None Include="Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
